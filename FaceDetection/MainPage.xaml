@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FaceDetection.MainPage"
+             BackgroundColor="Gray">
+
+    
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                
+                <Label Text="Face Detector" FontAttributes="Bold" FontSize="30" TextColor="White" HorizontalTextAlignment="Center" ></Label>
+                <Image x:Name="imgSelected" HeightRequest="200" WidthRequest="200" ></Image>
+                <Button x:Name="btnPick" Text="Pick Photo" Clicked="btnPick_Clicked" />
+                <Button x:Name="CameraButton" Text="Take Photo" Clicked="CameraButton_Clicked"/>
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="10,0,0,10">
+                    <Label x:Name="lblTotalFace" ></Label>
+                    <Label x:Name="lblGender"></Label>
+                    <Label x:Name="lblAge"></Label>
+                    <Label x:Name="lblHair"></Label>
+                    <Label x:Name="lblBeard"></Label>
+                    <Label x:Name="lblGlasses"></Label>
+                    <Label x:Name="lblEyeMakeup"></Label>
+                    <Label x:Name="lblLipMakeup"></Label>
+                    <Label x:Name="lblAnger"></Label>
+                    <Label x:Name="lblHappy"></Label>
+                    <Label x:Name="lblFear"></Label>
+                    
+                </StackLayout>
+            </StackLayout>
+       
+
+</ContentPage>
