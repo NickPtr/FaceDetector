@@ -7,13 +7,16 @@
              x:Class="FaceDetection.MainPage"
              BackgroundColor="Gray">
 
-    
+            <?Dimiourgia grafikwn ?>
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                
+                <?Label gia tin emfanisi tou titlou tis efarmogis ?>
                 <Label Text="Face Detector" FontAttributes="Bold" FontSize="30" TextColor="White" HorizontalTextAlignment="Center" ></Label>
+                <?Dimiourgia tou grafikou gia tin emfanisi tis epilegmenis eikonas apo ton xristi ?>
                 <Image x:Name="imgSelected" HeightRequest="200" WidthRequest="200" ></Image>
+                <?Dimiourgia twn koumpiwn gia tin epilogi tis fotografias ?>
                 <Button x:Name="btnPick" Text="Pick Photo" Clicked="btnPick_Clicked" />
                 <Button x:Name="CameraButton" Text="Take Photo" Clicked="CameraButton_Clicked"/>
+                <?Dimiourgia  twn Label gia tin emfanisi twn apotelesmatwn ?>
                 <StackLayout HorizontalOptions="CenterAndExpand" Margin="10,0,0,10">
                     <Label x:Name="lblTotalFace" ></Label>
                     <Label x:Name="lblGender"></Label>

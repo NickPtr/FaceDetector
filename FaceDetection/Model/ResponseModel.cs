@@ -2,6 +2,7 @@
 
 namespace XamarinCognitive.Models
 {
+    //Modelo gia tin epikoinonia me to API
     public class ResponseModel
     {
         public string faceId { get; set; }
